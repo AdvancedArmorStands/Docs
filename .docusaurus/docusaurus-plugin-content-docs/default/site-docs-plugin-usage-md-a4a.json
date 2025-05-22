@@ -1,0 +1,29 @@
+{
+  "id": "plugin-usage",
+  "title": "Plugin Usage",
+  "description": "<!-- # Installing the plugin",
+  "source": "@site/docs/plugin-usage.md",
+  "sourceDirName": ".",
+  "slug": "/plugin-usage",
+  "permalink": "/plugin-usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AdvancedArmorStands/Docs/tree/main/docs/plugin-usage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "id": "plugin-usage",
+    "title": "Plugin Usage",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/configuration"
+  },
+  "next": {
+    "title": "Developer API",
+    "permalink": "/api"
+  }
+}

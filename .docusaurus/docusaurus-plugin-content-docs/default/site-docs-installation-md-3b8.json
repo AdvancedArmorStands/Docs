@@ -1,0 +1,29 @@
+{
+  "id": "installation",
+  "title": "Installation Guide",
+  "description": "Follow these steps to install our Minecraft plugin on your server.",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AdvancedArmorStands/Docs/tree/main/docs/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "installation",
+    "title": "Installation Guide",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/getting-starteds"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/configuration"
+  }
+}

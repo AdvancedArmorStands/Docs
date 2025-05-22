@@ -1,0 +1,29 @@
+{
+  "id": "commands",
+  "title": "Commands",
+  "description": "This page lists all available commands in our Minecraft plugin.",
+  "source": "@site/docs/commands.md",
+  "sourceDirName": ".",
+  "slug": "/commands",
+  "permalink": "/commands",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AdvancedArmorStands/Docs/tree/main/docs/commands.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "commands",
+    "title": "Commands",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plugin Usage",
+    "permalink": "/plugin-usage"
+  },
+  "next": {
+    "title": "Permissions",
+    "permalink": "/permissions"
+  }
+}
