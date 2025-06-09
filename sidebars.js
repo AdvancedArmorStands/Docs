@@ -29,6 +29,11 @@ const sidebars = {
       items: ['version-support-error']
     },
     {
+      type: "category",
+      label: "PlaceHolder Api",
+      items: ['placeholders']
+    },
+    {
       type: 'category',
       label: 'FAQ & Troubleshooting',
       items: ['faq', 'troubleshooting'],

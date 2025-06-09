@@ -41,6 +41,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "placeholders",
+              "path": "/placeholders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "plugin-usage",
               "path": "/plugin-usage",
               "sidebar": "tutorialSidebar"

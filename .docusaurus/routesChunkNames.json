@@ -49,17 +49,17 @@
     },
     "config": "config---5-e-9-4f3"
   },
-  "/-815": {
+  "/-ad5": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-f21": {
+  "/-1dd": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-824": {
+  "/-5be": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/api-652": {
@@ -85,6 +85,10 @@
   "/installation-d21": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---installation-3-b-8-fd1"
+  },
+  "/placeholders-64b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---placeholdersca-7-d5f"
   },
   "/plugin-usage-65c": {
     "__comp": "__comp---theme-doc-item-178-a40",

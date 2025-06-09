@@ -72,5 +72,3 @@ If you encounter issues during installation:
 - Ensure you downloaded the correct version
 - Look for error messages in your server console
 - See our [Troubleshooting](/troubleshooting) guide for common issues
-
-If you're still having trouble, reach out through our [support channels](/getting-started#support).

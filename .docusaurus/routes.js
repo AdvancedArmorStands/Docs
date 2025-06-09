@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '815'),
+    component: ComponentCreator('/', 'ad5'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'f21'),
+        component: ComponentCreator('/', '1dd'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '824'),
+            component: ComponentCreator('/', '5be'),
             routes: [
               {
                 path: '/api',
@@ -87,6 +87,12 @@ export default [
               {
                 path: '/installation',
                 component: ComponentCreator('/installation', 'd21'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/placeholders',
+                component: ComponentCreator('/placeholders', '64b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
