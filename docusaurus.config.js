@@ -98,12 +98,12 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Parsa3323`,
       },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.oneLight,
         darkTheme: prismThemes.oneDark,
         additionalLanguages: ['java', 'yaml'],
       },
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },

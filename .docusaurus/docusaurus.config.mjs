@@ -95,102 +95,135 @@ export default {
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "backgroundColor": "hsl(230, 1%, 98%)",
+          "color": "hsl(230, 8%, 24%)"
         },
         "styles": [
           {
             "types": [
               "comment",
               "prolog",
-              "doctype",
               "cdata"
             ],
             "style": {
-              "color": "#999988",
+              "color": "hsl(230, 4%, 64%)"
+            }
+          },
+          {
+            "types": [
+              "doctype",
+              "punctuation",
+              "entity"
+            ],
+            "style": {
+              "color": "hsl(230, 8%, 24%)"
+            }
+          },
+          {
+            "types": [
+              "attr-name",
+              "class-name",
+              "boolean",
+              "constant",
+              "number",
+              "atrule"
+            ],
+            "style": {
+              "color": "hsl(35, 99%, 36%)"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "color": "hsl(301, 63%, 40%)"
+            }
+          },
+          {
+            "types": [
+              "property",
+              "tag",
+              "symbol",
+              "deleted",
+              "important"
+            ],
+            "style": {
+              "color": "hsl(5, 74%, 59%)"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "string",
+              "char",
+              "builtin",
+              "inserted",
+              "regex",
+              "attr-value",
+              "punctuation"
+            ],
+            "style": {
+              "color": "hsl(119, 34%, 47%)"
+            }
+          },
+          {
+            "types": [
+              "variable",
+              "operator",
+              "function"
+            ],
+            "style": {
+              "color": "hsl(221, 87%, 60%)"
+            }
+          },
+          {
+            "types": [
+              "url"
+            ],
+            "style": {
+              "color": "hsl(198, 99%, 37%)"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "textDecorationLine": "line-through"
+            }
+          },
+          {
+            "types": [
+              "inserted"
+            ],
+            "style": {
+              "textDecorationLine": "underline"
+            }
+          },
+          {
+            "types": [
+              "italic"
+            ],
+            "style": {
               "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "namespace"
+              "important",
+              "bold"
             ],
             "style": {
-              "opacity": 0.7
+              "fontWeight": "bold"
             }
           },
           {
             "types": [
-              "string",
-              "attr-value"
+              "important"
             ],
             "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
+              "color": "hsl(230, 8%, 24%)"
             }
           }
         ]
@@ -347,7 +380,7 @@ export default {
       ]
     },
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": false,
       "respectPrefersColorScheme": true
     },
