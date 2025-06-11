@@ -3,11 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/search',
-    component: ComponentCreator('/search', '822'),
-    exact: true
-  },
-  {
     path: '/',
     component: ComponentCreator('/', '2e1'),
     exact: true

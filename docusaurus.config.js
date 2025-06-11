@@ -23,17 +23,6 @@ const config = {
     locales: ['en'],
   },
   
-  plugins: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        hashed: true,
-        language: ['en'],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
-    ],
-  ],
 
   presets: [
     [
@@ -78,6 +67,16 @@ const config = {
           },
         ],
       },
+
+      // algolia: {
+      //   appId: '<>',
+      //   apiKey: '<>',
+      //   indexName: '<>',
+      
+      //   contextualSearch: true,
+      //   searchParameters: {},
+      //   searchPagePath: 'search',
+      // },
       footer: {
         style: 'dark',
         links: [
@@ -103,7 +102,7 @@ const config = {
         additionalLanguages: ['java', 'yaml'],
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },

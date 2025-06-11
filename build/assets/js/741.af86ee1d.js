@@ -1,1 +1,0 @@
-(self.webpackChunkminecraft_plugin_docs=self.webpackChunkminecraft_plugin_docs||[]).push([[741],{5741:()=>{}}]);

@@ -21,19 +21,6 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
-  "plugins": [
-    [
-      "@easyops-cn/docusaurus-search-local",
-      {
-        "hashed": true,
-        "language": [
-          "en"
-        ],
-        "highlightSearchTermsOnTargetPage": true,
-        "explicitSearchResultPath": true
-      }
-    ]
-  ],
   "presets": [
     [
       "classic",
@@ -380,7 +367,7 @@ export default {
       ]
     },
     "colorMode": {
-      "defaultMode": "dark",
+      "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": true
     },
@@ -404,13 +391,19 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
     "experimental_faster": {
       "swcJsLoader": false,
       "swcJsMinimizer": false,
       "swcHtmlMinimizer": false,
       "lightningCssMinimizer": false,
       "mdxCrossCompilerCache": false,
-      "rspackBundler": false
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
     },
     "experimental_storage": {
       "type": "localStorage",
@@ -424,6 +417,7 @@ export default {
     "static"
   ],
   "customFields": {},
+  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
