@@ -79,15 +79,3 @@ public class YourPlugin extends JavaPlugin {
 ### `ArmorStandRenameEvent`: Triggers when a user renames an armor stand
 
 ### `ArmorStandStateChangeEvent`: Triggers when a user changes state of an armor stand
-
-## Javadoc
-
-For complete documentation of all API classes and methods, see our [Javadoc](https://docs.example.com/javadoc).
-
-## Support
-
-If you have any questions about using our API, please:
-
-- Check our [GitHub](https://github.com/your-github-username/minecraft-plugin) for examples
-- Join our [Discord](https://discord.gg/your-discord) for developer support
-- Create an [issue](https://github.com/your-github-username/minecraft-plugin/issues) for bug reports or feature requests
