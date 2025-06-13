@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkminecraft_plugin_docs=self.webpackChunkminecraft_plugin_docs||[]).push([[957],{936:e=>{e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);

@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require('dotenv').config();
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -68,15 +69,15 @@ const config = {
         ],
       },
 
-      // algolia: {
-      //   appId: '<>',
-      //   apiKey: '<>',
-      //   indexName: '<>',
+      algolia: {
+        appId: process.env.APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.INDEX_NAME,
       
-      //   contextualSearch: true,
-      //   searchParameters: {},
-      //   searchPagePath: 'search',
-      // },
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       footer: {
         style: 'dark',
         links: [

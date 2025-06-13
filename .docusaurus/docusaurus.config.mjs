@@ -60,6 +60,14 @@ export default {
       ],
       "hideOnScroll": false
     },
+    "algolia": {
+      "appId": "EQXVGOEPYF",
+      "apiKey": "4aa54546a894f39f89d2f860c349f4c1",
+      "indexName": "advancedarmorstands",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "footer": {
       "style": "dark",
       "links": [
