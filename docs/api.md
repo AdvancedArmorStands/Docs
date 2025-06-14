@@ -23,21 +23,23 @@ main: com.yourname.yourplugin.YourPlugin
 soft-depend: [AdvancedArmorStands]  # Add aas as a dependency
 ```
 
-:::note
-or now we don't have a maven repo so you have to download the api file from the releases page and add it as a maven dependency
-:::
-
 For Maven projects, you can add aas as a dependency:
 
 ```xml
+<repository>
+  <id>advancedarmorstands-repo</id>
+  <url>https://repo.advancedarmorstands.ir</url>
+</repository>
+
 <dependency>
-    <groupId>com.parsa3323</groupId>
-    <artifactId>armorstand-api</artifactId>
-    <version>{Version}</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/{PluginjarName}</systemPath>
+  <groupId>com.parsa3323</groupId>
+  <artifactId>armorstand-api</artifactId>
+  <version>{version}</version>
 </dependency>
 ```
+:::tip
+You can get the latest version [here](https://github.com/Parsa3323/AdvancedArmorStands/tags)
+:::
 
 ## Accessing the API
 
