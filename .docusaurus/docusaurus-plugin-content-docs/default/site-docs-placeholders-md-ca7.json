@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "VersionSupport Error",
-    "permalink": "/version-support-error"
+    "title": "Config Version Outdated",
+    "permalink": "/config-version-outdated"
   },
   "next": {
     "title": "Frequently Asked Questions",

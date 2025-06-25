@@ -26,7 +26,7 @@ const sidebars = {
     {
       type: "category",
       label: "Errors",
-      items: ['version-support-error']
+      items: ['version-support-error', 'config-version-outdated']
     },
     {
       type: "category",

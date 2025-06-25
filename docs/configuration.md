@@ -121,6 +121,7 @@ armorstand:
   SavedStand101: # <====== Name of the armor stand
     say-its-working: # <====== Command name (use '-' instead of spaces)
       type: player # <====== Command executor ('player' or 'server')
+      trigger: all # <====== Interaction that triggers the action
 ```
 :::tip
 Use the Armor Stand menu to create or delete actions easily.

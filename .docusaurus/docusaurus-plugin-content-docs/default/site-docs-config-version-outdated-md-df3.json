@@ -1,0 +1,29 @@
+{
+  "id": "config-version-outdated",
+  "title": "Config Version Outdated",
+  "description": "When the plugin detects that your current config.yml file is using an outdated format or version, it shows a warning like this:",
+  "source": "@site/docs/config-version-outdated.md",
+  "sourceDirName": ".",
+  "slug": "/config-version-outdated",
+  "permalink": "/config-version-outdated",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/AdvancedArmorStands/Docs/tree/main/docs/config-version-outdated.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "config-version-outdated",
+    "title": "Config Version Outdated",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VersionSupport Error",
+    "permalink": "/version-support-error"
+  },
+  "next": {
+    "title": "PlaceHolders",
+    "permalink": "/placeholders"
+  }
+}
