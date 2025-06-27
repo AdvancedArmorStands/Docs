@@ -81,3 +81,5 @@ public class YourPlugin extends JavaPlugin {
 ### `ArmorStandRenameEvent`: Triggers when a user renames an armor stand
 
 ### `ArmorStandStateChangeEvent`: Triggers when a user changes state of an armor stand
+
+### `ActionTriggerEvent`: Triggers when an action is called
