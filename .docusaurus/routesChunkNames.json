@@ -1,115 +1,72 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/search-5de": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---searchc-14-0ea"
+      "plugin": "c141421f"
     }
   },
   "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "a7456010"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   },
   "/-bfd": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "aba21aa0"
     }
   },
   "/-878": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+    "__comp": "a7bd4aaa",
+    "__props": "22dd74f7"
   },
   "/-34f": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/api-652": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---api-5-fb-585"
+    "__comp": "17896441",
+    "content": "5fbc5cf1"
   },
   "/config-version-outdated-52d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---config-version-outdateddf-3-357"
+    "__comp": "17896441",
+    "content": "df362dfb"
   },
   "/configuration-5ee": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---configuration-9-ed-2cf"
+    "__comp": "17896441",
+    "content": "9ed00105"
   },
   "/development-1b0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---development-8-f-0-5c8"
+    "__comp": "17896441",
+    "content": "8f030830"
   },
   "/faq-a3b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---faq-048-9a2"
+    "__comp": "17896441",
+    "content": "0480b142"
   },
   "/getting-starteds-9dc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---getting-startedsd-58-b86"
+    "__comp": "17896441",
+    "content": "d589d3a7"
   },
   "/installation-d21": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---installation-3-b-8-fd1"
+    "__comp": "17896441",
+    "content": "3b8c55ea"
   },
   "/placeholders-64b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---placeholdersca-7-d5f"
+    "__comp": "17896441",
+    "content": "ca72d5a0"
   },
   "/plugin-usage-65c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---plugin-usagea-4-a-b31"
+    "__comp": "17896441",
+    "content": "a4af1931"
   },
   "/troubleshooting-810": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---troubleshooting-9-d-9-b37"
+    "__comp": "17896441",
+    "content": "9d9f8394"
   },
   "/version-support-error-d7d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---version-support-errora-50-c43"
+    "__comp": "17896441",
+    "content": "a502b73d"
   }
 }
