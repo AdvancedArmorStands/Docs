@@ -67,8 +67,7 @@ AdvancedArmorStands/
 │   │   ├── bug_report.yml
 │   │   └── config.yml
 │   └── workflows/
-│       ├── contributors.yml
-│       └── validate.yml
+│       └── test.yml
 ├── .gitignore
 ├── armorstand-api/
 │   ├── pom.xml
@@ -79,8 +78,12 @@ AdvancedArmorStands/
 │           │       └── parsa3323/
 │           │           └── aas/
 │           │               └── api/
+│           │                   ├── actions/
+│           │                   │   ├── SenderType.java
+│           │                   │   └── TriggerType.java
 │           │                   ├── ArmorstandApi.java
 │           │                   ├── events/
+│           │                   │   ├── ActionTriggerEvent.java
 │           │                   │   ├── ArmorStandCreateEvent.java
 │           │                   │   ├── ArmorStandDeleteEvent.java
 │           │                   │   ├── ArmorStandOptionChangeEvent.java
@@ -88,7 +91,9 @@ AdvancedArmorStands/
 │           │                   │   ├── ArmorStandStateChangeEvent.java
 │           │                   │   └── PlayerMoveArmorStandEvent.java
 │           │                   ├── exeption/
-│           │                   │   └── ArmorStandNotFoundException.java
+│           │                   │   ├── ArmorStandNotFoundException.java
+│           │                   │   ├── ConfigException.java
+│           │                   │   └── ReloadException.java
 │           │                   ├── player/
 │           │                   │   └── IPlayer.java
 │           │                   └── versionSupport/
@@ -103,6 +108,12 @@ AdvancedArmorStands/
 │           │   └── com/
 │           │       └── parsa3323/
 │           │           └── aas/
+│           │               ├── actions/
+│           │               │   ├── manager/
+│           │               │   │   ├── ActionItem.java
+│           │               │   │   └── ActionManager.java
+│           │               │   ├── SenderItem.java
+│           │               │   └── TriggerItem.java
 │           │               ├── AdvancedArmorStands.java
 │           │               ├── API.java
 │           │               ├── commands/
@@ -122,9 +133,10 @@ AdvancedArmorStands/
 │           │               │   ├── RenameCommand.java
 │           │               │   ├── SettingsCommand.java
 │           │               │   └── TeleportCommand.java
-│           │               ├── configs/
+│           │               ├── config/
+│           │               │   ├── ActionConfig.java
 │           │               │   ├── AnimationConfig.java
-│           │               │   ├── ArmorStands.java
+│           │               │   ├── ArmorStandsConfig.java
 │           │               │   └── TypesConfig.java
 │           │               ├── inventory/
 │           │               │   ├── HeadItem.java
@@ -146,6 +158,7 @@ AdvancedArmorStands/
 │           │               │   ├── PlayerLeaveEvent.java
 │           │               │   └── StateListener.java
 │           │               ├── menus/
+│           │               │   ├── ActionMenu.java
 │           │               │   ├── ArmorStandMenu.java
 │           │               │   ├── manager/
 │           │               │   │   ├── Menu.java
@@ -170,6 +183,7 @@ AdvancedArmorStands/
 │           │               │   ├── CustomPlayer.java
 │           │               │   └── PlayerManager.java
 │           │               └── utils/
+│           │                   ├── ActionUtils.java
 │           │                   ├── AnimationUtils.java
 │           │                   ├── ArmorStandSelectionCache.java
 │           │                   ├── ArmorStandUtils.java
@@ -189,6 +203,7 @@ AdvancedArmorStands/
 ├── pom.xml
 ├── README.md
 ├── SECURITY.md
+├── TERMS_OF_SERVICE.md
 ├── versionsupport_1_12/
 │   ├── pom.xml
 │   └── src/
@@ -252,6 +267,7 @@ AdvancedArmorStands/
                     └── parsa3323/
                         └── versionsupport_v1_19/
                             └── Versionsupport_v1_19.java
+
 
 ```
 
