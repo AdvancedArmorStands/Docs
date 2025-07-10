@@ -72,14 +72,14 @@ public class YourPlugin extends JavaPlugin {
 
 ## Events
 
-### `ArmorStandCreateEvent`: Triggers when a user creates an armor stand
+### `ArmorStandCreateEvent`: Triggers when a user creates an armor stand.
 
-### `ArmorStandDeleteEvent`: Triggers when a user deletes an armor stand
+### `ArmorStandDeleteEvent`: Triggers when a user deletes an armor stand.
 
-### `PlayerMoveArmorStandEvent`: Triggers when a user moves an armor stand
+### `PlayerMoveArmorStandEvent`: Triggers when a user moves an armor stand.
 
-### `ArmorStandRenameEvent`: Triggers when a user renames an armor stand
+### `ArmorStandRenameEvent`: Triggers when a user renames an armor stand.
 
-### `ArmorStandStateChangeEvent`: Triggers when a user changes state of an armor stand
+### `ArmorStandStateChangeEvent`: Triggers when a user changes state of an armor stand.
 
-### `ActionTriggerEvent`: Triggers when an action is called
+### `ActionTriggerEvent`: Triggers when an action is called.
