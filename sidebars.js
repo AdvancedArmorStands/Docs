@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Advanced',
-      items: ['api', 'development'],
+      items: ['animations', 'api', 'development'],
     },
     {
       type: "category",
