@@ -13,7 +13,7 @@ Follow these steps to install our Minecraft plugin on your server.
 Before installing, make sure you have:
 
 - A Minecraft server running version 1.8.x - 1.21.x
-- [PlaceHolderApi](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin
+- [PlaceHolderApi](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin _(optional)_
 - Server software: Spigot, Paper, or compatible forks
 - Java 8 or higher
 - Access to your server files
