@@ -18,16 +18,16 @@ Placeholders can be used in compatible plugins like:
 - GUIs (e.g., ChestCommands, DeluxeMenus)
 
 The syntax for each placeholder is:
-`%advancedarmorstands_<name>%`
+`%aas_<name>%`
 
 ## Available Placeholders
 
 | Placeholder | Description |
 |------------|-------------|
-| `%advancedarmorstands_total%` | Returns the total number of armor stands created by all players |
-| `%advancedarmorstands_total_types%` | Returns the total number of types players |
-| `%advancedarmorstands_version%` | Returns the current version of the plugin |
-| `%advancedarmorstands_total_loaded%` | Returns the total number of **loaded** armor stands created by all players |
+| `%aas_total%` | Returns the total number of armor stands created by all players |
+| `%aas_total_types%` | Returns the total number of types players |
+| `%aas_version%` | Returns the current version of the plugin |
+| `%aas_total_loaded_armor_stands%` | Returns the total number of **loaded** armor stands created by all players |
 
 :::note
 All placeholders are automatically updated and refreshed. If you're using an async-compatible plugin (e.g., Scoreboard plugins), they will work seamlessly without performance impact.
