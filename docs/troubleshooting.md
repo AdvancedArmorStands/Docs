@@ -36,7 +36,7 @@ This guide will help you solve common issues with our Minecraft plugin.
 
 5. **Missing Dependencies**
    
-   **Solution:** Check the console for messages about missing dependencies and install them.
+   **Solution:** Make sure that you have the [dependencies](http://docs.advancedarmorstands.ir/installation#prerequisites) installed.
 
 ### Configuration Errors
 
