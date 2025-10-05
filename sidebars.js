@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Menus',
-      items: ['armorstand-menu']
+      items: ['armorstand-menu', 'options-menu']
     },
     {
       type: 'category',
