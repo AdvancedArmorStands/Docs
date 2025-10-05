@@ -8,7 +8,7 @@ sidebar_position: 3
 
 The **Options Menu** is a simple, paginated inventory that lets you configure how your armor stand looks.
 
-You can open it directly from the **ArmorStand Menu** by clicking the **Options**.
+You can open it directly from the **ArmorStand Menu** by clicking **Options**.
 
 ---
 
