@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkminecraft_plugin_docs=self.webpackChunkminecraft_plugin_docs||[]).push([[158],{8158:(c,a,e)=>{e.r(a),e.d(a,{DocSearchModal:()=>s.a1});var s=e(3219)}}]);
