@@ -20,6 +20,11 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Menus',
+      items: ['armorstand-menu']
+    },
+    {
+      type: 'category',
       label: 'Advanced',
       items: ['animations', 'api', 'development'],
     },
