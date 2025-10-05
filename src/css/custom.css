@@ -6,6 +6,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
+    --docsearch-primary-color: var(--ifm-color-primary);
+  --docsearch-text-color: var(--ifm-color-primary);
+  --docsearch-searchbox-background: var(--ifm-color-primary);
+  --docsearch-searchbox-focus-background: var(--ifm-color-primary);
+  --docsearch-highlight-color: var(--ifm-color-primary);
+  --docsearch-muted-color: var(--ifm-color-emphasis-700);
+  --docsearch-container-background: rgba(0, 0, 0, 0.5);
+  
   --ifm-color-primary: #fc5a1f;
   --ifm-color-primary-dark: #fc460a;
   --ifm-color-primary-darker: #f63c00;

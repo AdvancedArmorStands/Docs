@@ -50,6 +50,10 @@ After quitting, you can apply the animation to any armor stand with:
 /animation add <animation-name> <armorstand-name>
 ```
 
+:::tip
+You can also click on the success message to set the animation for that armorstand
+:::
+
 - This binds the animation to the given armor stand.
 - The armor stand will now animate according to the keyframes and intervals you've defined.
 
