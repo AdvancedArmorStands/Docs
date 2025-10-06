@@ -13,7 +13,7 @@ The `main.yml` configuration file allows you to enable or disable debugging.
 
 ```yaml
 
-config-version: <1.0.0> # <========== Config version (don't touch)
+config-version: 1.0.0 # <========== Config version (don't touch)
 
 debug: false # <========== Enable & Disable debug
 
