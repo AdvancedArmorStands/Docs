@@ -42,7 +42,7 @@ The plugin will automatically generate necessary configuration files on the firs
 You can verify that the plugin has been successfully installed by:
 
 1. Checking the server console during startup for messages from our plugin
-2. Running the command `/plugin` in-game (requires appropriate permissions)
+2. Running the command `/as` in-game 
 3. Looking for the plugin in the output of the `/plugins` command
 
 ## Post-Installation
