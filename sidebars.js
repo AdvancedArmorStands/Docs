@@ -26,7 +26,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Advanced',
-      items: ['animations', 'api', 'development'],
+      items: ['animations', 'development'],
+    },
+    {
+      type: 'category',
+      label: 'API',
+      items: ['api-introduction', 'api-events', 'api-creating-an-armorstand']
     },
     {
       type: "category",

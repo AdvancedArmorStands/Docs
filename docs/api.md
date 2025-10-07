@@ -1,6 +1,6 @@
 ---
-id: api
-title: Developer API
+id: api-introduction
+title: Api Introduction
 sidebar_position: 6
 ---
 
