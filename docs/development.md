@@ -303,7 +303,7 @@ git push origin feature/your-feature-name
 
 ## Building Addons
 
-To build extensions for our plugin, use our API as described in the [API documentation](/api).
+To build extensions for our plugin, use our API as described in the [API documentation](/api-introduction).
 
 
 ## Getting Help
