@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'API',
-      items: ['api-introduction', 'api-events', 'api-creating-an-armorstand', 'api-open-inventories']
+      items: ['api-introduction', 'api-events', 'api-creating-an-armorstand', 'api-open-inventories', 'api-adding-animation']
     },
     {
       type: "category",
