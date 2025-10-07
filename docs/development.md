@@ -310,7 +310,7 @@ To build extensions for our plugin, use our API as described in the [API documen
 
 If you need help with development:
 
-- Check the [API documentation](/api)
+- Check the [API documentation](/api-introduction)
 - Create an issue on GitHub
 
 ## Code of Conduct
