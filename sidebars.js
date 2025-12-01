@@ -20,6 +20,11 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'ArmorStand Ai',
+      items: ['ai-getting-started']
+    },
+    {
+      type: 'category',
       label: 'Menus',
       items: ['armorstand-menu', 'options-menu', 'actions-menu']
     },
