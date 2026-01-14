@@ -16,12 +16,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['getting-starteds', 'installation', 'configuration', 'plugin-usage'],
+      items: ['getting-starteds', 'installation', 'configuration', 'creating-as', 'moving-as', 'renaming-as'],
     },
     {
       type: 'category',
-      label: 'ArmorStand Ai',
-      items: ['ai-getting-started']
+      label: 'Artificial Intelligence',
+      items: ['setting-up-ai', 'talking-to-ai', 'using-assist']
     },
     {
       type: 'category',

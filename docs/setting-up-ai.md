@@ -1,10 +1,10 @@
 ---
-id: ai-getting-started
-title: Getting Started
+id: setting-up-ai
+title: Setting up AI
 sidebar_position: 6
 ---
 
-# Getting Started with AI
+# Setting up AI
 
 The AI system in **Advanced Armor Stands** allows armor stands to respond to prompts, execute actions, and modify themselves using an external LLM provider.
 
