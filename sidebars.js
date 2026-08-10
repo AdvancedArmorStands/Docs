@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Languages',
-      items: ['lang-en', 'lang-fa', 'lang-it', 'lang-es', 'lang-pt', 'lang-ru', 'lang-tr', 'lang-ro', 'lang-bn', 'lang-id', 'lang-pl']
+      items: ['lang-en', 'lang-fa', 'lang-it', 'lang-es', 'lang-pt', 'lang-ru', 'lang-tr', 'lang-ro', 'lang-bn', 'lang-id', 'lang-pl', 'lang-add']
     },
     {
       type: 'category',
