@@ -17,8 +17,12 @@ const config = {
   projectName: 'Docs',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
+  markdown: {
+  hooks: {
+    onBrokenMarkdownLinks: 'throw',
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
