@@ -31,6 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsed: false,
           editUrl:
             'https://github.com/AdvancedArmorStands/Docs/tree/main/',
           routeBasePath: '/',

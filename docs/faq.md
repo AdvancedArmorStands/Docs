@@ -10,7 +10,7 @@ sidebar_position: 7
 
 ### What versions of Minecraft are supported?
 
-Our plugin currently supports Minecraft versions 1.8.x through 1.21.x. We aim to update for new Minecraft versions shortly after their release.
+Our plugin currently supports Minecraft versions 1.8.x through 26.x. We aim to update for new Minecraft versions shortly after their release.
 
 ### Does this plugin work with modded servers?
 
@@ -33,18 +33,19 @@ Common reasons include:
 - Missing dependencies
 - Corrupted JAR file
 - Java version issues
+- Using the API JAR instead of the plugin JAR
 
 Check your server console for error messages and refer to our [Troubleshooting](/troubleshooting) guide.
 
 ### How do I update the plugin?
 
-Simply replace the old JAR file with the new one and restart your server. Your configuration files will be preserved.
+Simply replace the old JAR file with the new one and restart your server, start the server, if you got the old configuration error, [do this](/config-version-outdated)
 
 ## Configuration
 
 ### How do I change plugin messages?
 
-Unfortunately this plugin doesn't support customizing messages.
+Simply copy a language of your choice in the `~/AdvancedArmorStands/languages` and rename it using the `messages_<iso>.yml` format, and then you can edit the messages in it
 
 ### Can I disable specific features?
 
@@ -68,7 +69,7 @@ Our plugin doesn't directly handle world-specific permissions, but you can use a
 
 ### Does the plugin use a database?
 
-No, this plugin uses yaml to store it's datas
+No, this plugin uses encrypted yaml as a db to store it's datas, but the encryption key is public
 
 ### Can I migrate data from another plugin?
 
