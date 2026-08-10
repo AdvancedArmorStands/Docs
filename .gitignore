@@ -19,6 +19,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+README-old.md
+
 # environment variables
 .env
 .env.production
