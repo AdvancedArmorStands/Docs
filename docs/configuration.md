@@ -6,35 +6,46 @@ sidebar_position: 3
 
 ## Main Configuration
 
-The `main.yml` configuration file allows you to enable or disable debugging.
+The `config.yml` file is the plugin's main configuration file:
 
 
 
 
 ```yaml
+# Main configuration
 
-config-version: 1.0.0 # <========== Config version (don't touch)
+config-version: 1.0.2 # <========== Config version (don't touch)
+
+language: en # <========== Language
 
 debug: false # <========== Enable & Disable debug
 
 shift-right-click-to-add: true # <========== Enable & Disable shift-right-click to add ArmorStand
 
+shift-click-to-delete: false # <========== Enable & Disable shift-right-click to delete ArmorStand
+
 auto-load-armor-stands: false # <========== Automatically reload armor stands on server restart
+
+ai:
+  token: 'PLACE_YOUR_TOKEN_HERE' # <========== Token for AI integration (place your actual token here)
+
+  allow-players: true # <========== Allow players to interact with the AI system
 ```
 
 ## Types Configuration
 
-The `types.yml` file defines different entity types with their properties.
+The `types.yml` file is the configuration for types:
 
 ```yaml
 default: # <====== Name of the type
-  Arms: true # <====== Has arms?
-  Gravity: false # <====== Has gravity?
-  BasePlate: false # <====== Does it have a baseplate?
-  CustomName: '&cMade with aas' # <====== Custom name for the entity
+  arms: true # <====== Has arms?
+  basePlate: false # <====== Does it have a baseplate?
+  customName: '&cMade with aas' # <====== Custom name for the entity
   isCustomNameVisible: false # <====== Should the custom name be visible?
+  isVisible: true # <====== Is visible?
+  isSmall: false # <====== Is small?
   itemInHandMaterial: WOOD_SWORD # <====== Item held in the hand
-  HeadPos: {} # <====== Head position (empty by default)
+  headPos: {} # <====== Head position (empty by default)
   rightArmPose: # <====== Right arm pose
     x: -45
     y: 0
@@ -52,7 +63,7 @@ default: # <====== Name of the type
     y: 0
     z: 0
 ```
-:::danger  
+:::note  
 Modify `itemInHandMaterial` to any valid Minecraft material.
 :::
 
@@ -61,6 +72,8 @@ Players can create as many types as they want, but they must change the names an
 :::
 
 ## Animations Configuration
+
+The `animations.yml` file is the configuration for animations:
 
 ```yaml
 animations:
@@ -116,6 +129,8 @@ Or you can use the [in-game animation creator](/animations) or the [online edito
 
 ## Actions Configuration
 
+The `actions.yml` file is the configuration for actions:
+
 ```yaml
 armorstand:
   SavedStand101: # <====== Name of the armor stand
@@ -125,4 +140,8 @@ armorstand:
 ```
 :::tip
 Use the Armor Stand menu to create or delete actions easily.
+:::
+
+:::warning
+Don't touch cache `.aas` files.
 :::
